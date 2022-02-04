@@ -4,6 +4,7 @@ This is a sample I/O Events consumer, built using Adobe App Builder, that forwar
 ## Setup
 
 - Populate the `.env` file in the project root and fill it as shown [below](#env)
+- Populate `AIO_RUNTIME_NAMESPACE` in `src/dx-excshell-1/web-src/src/config.json`
 
 ## Usage
 
