@@ -12,7 +12,9 @@ This is a sample I/O Events consumer, built using Adobe App Builder, that forwar
 
 - Deploy the app locally or on Adobe's infrastructure using the steps mentioned in the subsequent sections. 
 
-- From the UI, configure the Azure Service Bus connection string and topic. All events received by I/O Events will be forwarded to this topic.
+- From the UI, configure the Azure Service Bus connection string and topic. 
+
+- Now create an event-registration using the runtime-action (from this app) as an event-consumer. All events delivered by I/O Events to this action will get forwarded to the configured Azure Service Bus topic.
 
 ![Configure Azure Service Bus](images/configure-azure-service-bus.png)
 
