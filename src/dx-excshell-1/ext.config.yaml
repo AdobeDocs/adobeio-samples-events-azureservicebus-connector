@@ -1,0 +1,20 @@
+operations:
+  view:
+    - type: web
+      impl: index.html
+actions: actions
+web: web-src
+runtimeManifest:
+  packages:
+    dx-excshell-1:
+      license: Apache-2.0
+      actions:
+        message-queue-connector:
+          function: actions/message-queue-connector/index.js
+          web: 'yes'
+          runtime: 'nodejs:14'
+          inputs:
+            LOG_LEVEL: debug
+          annotations:
+            require-adobe-auth: false
+            final: true
