@@ -1,6 +1,8 @@
 # adobeio-samples-events-azureservicebus-connector
 This is a sample I/O Events consumer, built using Adobe App Builder, that forwards all incoming events to Azure Service Bus. This sample consumer application can be used as a reference to connect Adobe I/O Events with enterprise's Azure Service Bus.
 
+![Overview](images/overview.png)
+
 ## Setup
 
 - Populate the `.env` file in the project root and fill it as shown [below](#env)
@@ -8,7 +10,7 @@ This is a sample I/O Events consumer, built using Adobe App Builder, that forwar
 
 ## Usage
 
-- Create subscription in to the Azure Service Bus topic by following these steps - https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal
+- Create subscription in to the Azure Service Bus topic by following these steps - https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal.
 
 - Deploy the app locally or on Adobe's infrastructure using the steps mentioned in the subsequent sections. 
 
@@ -17,6 +19,8 @@ This is a sample I/O Events consumer, built using Adobe App Builder, that forwar
 - Now create an event-registration using the runtime-action (from this app) as an event-consumer. All events delivered by I/O Events to this action will get forwarded to the configured Azure Service Bus topic.
 
 ![Configure Azure Service Bus](images/configure-azure-service-bus.png)
+
+![Create I/O Events registration](images/select-runtime-action.png)
 
 ## Local Dev
 
