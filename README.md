@@ -1,4 +1,4 @@
-# adobeio-samples-events-azureservicebus-connector
+# Adobe I/O Events - Azure Service Bus connector
 This is a sample I/O Events consumer, built using Adobe App Builder, that forwards all incoming events to Azure Service Bus. This sample consumer application can be used as a reference to connect Adobe I/O Events with enterprise's Azure Service Bus.
 
 ![Overview](images/overview.png)
